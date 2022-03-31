@@ -1,0 +1,128 @@
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        
+        #nav {
+            background-color: white;
+            height: 80px;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .img-anb {
+            width: 30%;
+            padding: 10px 0;
+        }
+        
+        .inp {
+            border-radius: 40px;
+            width: 80%;
+            text-align: center;
+            padding: 8px 0;
+        }
+        
+        #refugee {
+            padding: 60px 0px;
+            background-color: black;
+        }
+        
+        .pink-box {
+            background-color: #ff385c;
+            border-radius: 20px;
+            padding: 120px 0px;
+        }
+        
+        .pink-box-text {
+            font-weight: 700;
+            font-size: 30px;
+            color: white;
+        }
+        
+        .btn-pinkbox {
+            background-color: #ff385c;
+            border-radius: 15px;
+            border: 1px solid white;
+            color: white;
+            padding: 6px 20px;
+            font-weight: 500;
+        }
+        
+        #black-white {
+            background: linear-gradient(to top, white 50%, black 0%, black 80%, black 100%);
+        }
+        
+        .sc1 {
+            width: 100%;
+        }
+        
+        #inspiration,
+        #discover {
+            background-color: white;
+            padding-top: 100px;
+        }
+        
+        .insp-head {
+            font-size: 30px;
+            font-weight: 700;
+            color: black;
+        }
+        
+        .insp-img {
+            width: 100%;
+            margin-top: 15px;
+        }
+        
+        #quest {
+            margin-top: 80px;
+            background: url('./Screenshot8.png');
+            background-size: cover;
+            background-position-x: left;
+            background-position-y: center;
+            height: 505px;
+        }
+        
+        #nav1 {
+            margin-top: 80px;
+            padding-top: 50px;
+            background-color: whitesmoke;
+        }
+        
+        .nav-bar {
+            font-weight: 600;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        
+        .p-class {
+            font-weight: 200;
+            font-size: 15px;
+        }
+        
+        #nav2 {
+            background-color: #eeee;
+            padding: 20px 0px;
+        }
+        
+        @media only screen and (max-width: 576px) {
+            #refugee {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .pink-box {
+                padding: 60px 15px;
+            }
+            .sc1 {
+                height: 400px;
+                width: 100%;
+                background-size: cover;
+                background-position: center;
+                border-radius: 20px;
+            }
+            #inspiration,
+            #discover {
+                padding-top: 50px;
+            }
+        }
